@@ -245,7 +245,7 @@ exports.parseMatrix = function(matrix) {
   }
 
   return matrix;
-};
+};arses end evaluates mathematical expressions
 
 var d1900 = new Date(1900, 0, 1);
 exports.parseDate = function(date) {
@@ -351,12 +351,12 @@ exports.arrayEach = function(array, iteratee) {
 };
 
 exports.transpose = function(matrix) {
-  if(!matrix) { 
+  if(!matrix) {
     return error.value;
   }
 
-  return matrix[0].map(function(col, i) { 
-    return matrix.map(function(row) { 
+  return matrix[0].map(function(col, i) {
+    return matrix.map(function(row) {
       return row[i];
     });
   });
@@ -18465,7 +18465,7 @@ exports.VLOOKUP = function (needle, table, index, rangeLookup) {
   }
 
   return error.na;
-};      
+};
 
 exports.HLOOKUP = function (needle, table, index, rangeLookup) {
   if (!needle || !table || !index) {

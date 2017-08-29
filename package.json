@@ -82,6 +82,8 @@
   },
   "dependencies": {
     "formulajs": "github:handsontable/formula.js#1.2.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
     "tiny-emitter": "^2.0.1"
   },
   "jest": {

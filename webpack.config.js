@@ -4,6 +4,9 @@ var webpack = require('webpack')
 
 var env = process.env.NODE_ENV
 var config = {
+  node: {
+    fs: 'empty',
+  },
   module: {
     loaders: [
       { test: /\.js$/, loaders: ['babel-loader'], exclude: /node_modules|grammar\-parser\.js$/ }

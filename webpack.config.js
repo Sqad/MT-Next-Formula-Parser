@@ -5,7 +5,7 @@ var webpack = require('webpack')
 var env = process.env.NODE_ENV
 var config = {
   node: {
-    fs: 'empty',
+    fs: 'empty'
   },
   module: {
     loaders: [

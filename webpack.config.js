@@ -14,7 +14,7 @@ var config = {
   },
   output: {
     library: 'formulaParser',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
   },
   plugins: [
     new webpack.optimize.OccurrenceOrderPlugin(),
